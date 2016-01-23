@@ -30,3 +30,11 @@ dev.off()
 
 #check for file
 file.exists("hist.pdf")
+
+#dataframe
+x <- data.frame(foo=1:4, bar=c(T,F,F,T))
+
+#matrix
+m <- matrix(1:6, nrow= 2, ncol=3)
+
+
